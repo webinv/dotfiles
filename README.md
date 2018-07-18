@@ -14,7 +14,7 @@ Installation
 
 **Usage**
 
-    wget -O - -q --no-check-certificate https://raw.github.com/webinv/dotfiles/master/install.sh.sh | bash -s -- -h
+    wget -O - -q --no-check-certificate https://raw.github.com/webinv/dotfiles/master/install.sh | bash -s -- -h
 
 Options
 
