@@ -72,3 +72,7 @@ do
 done
 
 chmod 600 $HOME/.ssh/authorized_keys
+
+echo ""
+echo "Done."
+echo ""
