@@ -14,7 +14,7 @@ Installation
 
 **Usage**
 
-    wget -O - -q --no-check-certificate https://raw.github.com/webinv/dotfiles/master/bin/install.sh | bash -s -- -h
+    wget -O - -q --no-check-certificate https://raw.github.com/webinv/dotfiles/master/install.sh.sh | bash -s -- -h
 
 Options
 
@@ -26,8 +26,8 @@ Options
     
 **Default instalation**
 
-    wget -O - -q --no-check-certificate https://raw.github.com/webinv/dotfiles/master/bin/install | bash
+    wget -O - -q --no-check-certificate https://raw.github.com/webinv/dotfiles/master/install.sh | bash
     
 **Instalation without backup**
 
-    wget -O - -q --no-check-certificate https://raw.github.com/webinv/dotfiles/master/bin/install | bash -s -- -n
+    wget -O - -q --no-check-certificate https://raw.github.com/webinv/dotfiles/master/install.sh | bash -s -- -n
