@@ -1,5 +1,11 @@
 [core]
 	excludesfile = ~/.gitignore_global
 	autocrlf = input
+[push]
+	default = simple
 [alias]
 	cleanup = !sh -c \"git branch | grep -v master | xargs git branch -D\"
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
