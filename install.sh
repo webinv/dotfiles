@@ -24,7 +24,7 @@ function error
     exit 1
 }
 
-BASE_URL=https://raw.github.com/dot-files/bash/master
+BASE_URL=https://raw.github.com/webinv/dotfiles/master
 NO_BACKUP=0
 
 while :
