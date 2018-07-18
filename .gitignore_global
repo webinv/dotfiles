@@ -1,0 +1,52 @@
+### Vagrant ###
+.vagrant/
+.vagrant-*/
+
+### Intellij ###
+.idea/
+*.ipr
+*.iml
+*.iws
+atlassian-ide-plugin.xml
+
+### Eclipse ###
+.project
+*.pydevproject
+.metadata
+.gradle
+*.tmp
+*.bak
+*.swp
+*~.nib
+.settings/
+.loadpath
+.cproject
+.buildpath
+.target
+.texlipse
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+*~
+
+### PHP ###
+.php_cs.cache

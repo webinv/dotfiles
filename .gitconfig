@@ -1,0 +1,5 @@
+[core]
+	excludesfile = ~/.gitignore_global
+	autocrlf = input
+[alias]
+	cleanup = !sh -c \"git branch | grep -v master | xargs git branch -D\"
