@@ -61,7 +61,7 @@ mkdir -p $HOME/.ssh
 chmod 755 $HOME/.ssh
 
 BACKUP_SUFFIX=.backup_$( date '+%Y-%m-%d-%H-%M-%S' )
-for dotfile in .bash_aliases .bash_profile .bashrc_local .gitconfig .gitignore_global .profile .vimrc .ssh/config .ssh/authorized_keys
+for dotfile in .bash_aliases .bash_profile .bashrc .bashrc_local .gitconfig .gitignore_global .profile .vimrc .ssh/config .ssh/authorized_keys
 do
     if [[ -e $HOME/$dotfile || -h $HOME/$dotfile ]]; then
         if [ $NO_BACKUP == 0 ]; then
