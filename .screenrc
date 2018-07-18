@@ -1,0 +1,5 @@
+defmonitor      on
+defscrollback   1000
+defutf8         on
+shell           -bash
+startup_message off
