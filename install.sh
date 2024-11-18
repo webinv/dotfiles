@@ -56,6 +56,9 @@ do
     esac
 done
 
+# Oh My Posh
+mkdir -p $HOME/.oh-my-posh
+
 # SSH
 mkdir -p $HOME/.ssh
 chmod 755 $HOME/.ssh
