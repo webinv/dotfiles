@@ -7,6 +7,7 @@ Common settings
 * VIM settings
 * SSH config
 * GIT settings
+* [Oh My Posh](https://ohmyposh.dev)
 
 
 Installation
@@ -31,3 +32,11 @@ Options
 **Instalation without backup**
 
     wget -O - -q --no-check-certificate https://raw.github.com/webinv/dotfiles/master/install.sh | bash -s -- -n
+
+**Oh My Posh**
+
+[Oh My Posh Documentation](https://ohmyposh.dev/docs)
+
+* `brew install --cask font-sauce-code-pro-nerd-font` Install nerd font and update terminal font
+* For ZSH add to `.zshrc_local.sh` line `eval "$(oh-my-posh init zsh --config $HOME/.oh-my-posh/personal_minimal.omp.json)"`
+* For BASH add to `.bashrc_local.sh` line  `eval "$(oh-my-posh init bash --config $HOME/.oh-my-posh/personal_minimal.omp.json)"`

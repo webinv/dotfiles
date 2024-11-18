@@ -140,6 +140,6 @@ export NVM_DIR="$HOME/.nvm"
 
 
 # Local
-if [ -f $HOME/.local.sh ]; then
-    source $HOME/.local.sh
+if [ -f $HOME/.bashrc_local.sh ]; then
+    source $HOME/.bashrc_local.sh
 fi
