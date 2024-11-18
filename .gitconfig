@@ -1,10 +1,12 @@
 [core]
-    excludesfile = ~/.gitignore_global
-    autocrlf = input
+  excludesfile = ~/.gitignore_global
+  autocrlf = input
+[init]
+	defaultBranch = main
 [push]
-    default = current
+  default = current
 [pull]
-    rebase = true
+  rebase = true
 [color]
   status = auto
   diff = auto
