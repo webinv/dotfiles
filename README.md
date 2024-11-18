@@ -35,8 +35,8 @@ Options
 
 **Oh My Posh**
 
-[Oh My Posh Documentation](https://ohmyposh.dev/docs)
-
-* `brew install --cask font-sauce-code-pro-nerd-font` Install nerd font and update terminal font
+* `brew install --cask font-sauce-code-pro-nerd-font` Install [Nerd Font](https://www.nerdfonts.com) and update terminal font
+* `brew install jandedobbeleer/oh-my-posh/oh-my-posh` [Installation](https://ohmyposh.dev/docs/installation/macos)
 * For ZSH add to `.zshrc_local.sh` line `eval "$(oh-my-posh init zsh --config $HOME/.oh-my-posh/personal_minimal.omp.json)"`
 * For BASH add to `.bashrc_local.sh` line  `eval "$(oh-my-posh init bash --config $HOME/.oh-my-posh/personal_minimal.omp.json)"`
+* [Oh My Posh Documentation](https://ohmyposh.dev/docs)
