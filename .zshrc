@@ -93,7 +93,12 @@ if [ -f $HOME/.bash_aliases ]; then
     source $HOME/.bash_aliases
 fi
 
-# Local
+# Local ZSH
 if [ -f $HOME/.zshrc_local.sh ]; then
     source $HOME/.zshrc_local.sh
+fi
+
+# Local
+if [ -f $HOME/.local.sh ]; then
+    source $HOME/.local.sh
 fi

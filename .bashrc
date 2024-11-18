@@ -139,7 +139,12 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 
-# Local
+# Local BASH
 if [ -f $HOME/.bashrc_local.sh ]; then
     source $HOME/.bashrc_local.sh
+fi
+
+# Local
+if [ -f $HOME/.local.sh ]; then
+    source $HOME/.local.sh
 fi
