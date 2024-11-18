@@ -16,7 +16,6 @@ filetype plugin on
 set t_Co=256
 
 set autoindent
-set background=dark
 set backspace=indent,eol,start
 set cindent
 set cursorline
@@ -59,9 +58,5 @@ inoremap <C-a> <Esc>I
 inoremap <C-e> <Esc>A
 nnoremap <CR>  :nohlsearch<CR>
 
-if ( &t_Co == 256 )
-    colorscheme delek
-else
-    highlight StatusLine ctermbg=black ctermfg=darkgreen
-    highlight StatusLineNC ctermbg=gray ctermfg=darkgray
-endif
+highlight StatusLine ctermbg=black ctermfg=darkgreen
+highlight StatusLineNC ctermbg=gray ctermfg=darkgray
